@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+
+ }
+
+body
+{
+    background-image: url("../images/bg1.jpg");
+   
+     height: 500px;
+     background-repeat: no-repeat;
+     
+   
+} 
+header
+{
+    background-color:white;
+
+}
+
+#logo
+{   margin-left: 40px;
+    margin-top: 10px;
+}
+nav
+{
+    float: right;
+        margin-right: 50px;
+    margin-top: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 50px;
+    font-size: large;
+}
+nav a:hover{
+    background-color: rgba(255, 0, 0, 0.429);
+}
+
+
+#hello h1{
+    text-align: center;
+    font-size: 4.5rem;
+    color:black;
+    border: 2px solid black;
+    padding:30px;
+    margin: 50px;
+    margin-top: 0;
+    background-color: rgba(255, 0, 0, 0.429) ;
+}
+
+.home{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+.home h1{
+    font-size: 75px;
+
+}
+.home h1 span { color:rgba(255, 0, 0, 0.429);
+                width: 90%;}
+.home p { font-size:1.5rem;}
+
+.container{margin-top: 500px;}
+
+#about{
+    background-color: rgba(255, 0, 0, 0.303);
+    height:9em;
+    padding:40px;
+}
+#about h2{text-align: center;
+          font-size: 35px;
+        }
+
+#about p{ text-align: justify;
+          font-size: 22px;
+        padding: px;}
+
+#skill h2{text-align: center;
+          font-size: 35px;
+        }
+ 
+
+#skill li{margin-left: 45%;
+          font-size: 22px; 
+          list-style-type: square;
+         }
+
+#edu {background-color:rgba(255, 0, 0, 0.303) ;
+      margin-top: 20px;
+      height:10em;
+      padding:40px;}
+#edu h2{text-align: center;
+    font-size: 35px;}
+#edu h3{font-size: 22px;}
+#edu li{list-style-type: square;
+        font-size: 22px;}
+        
+.contact{border: 5px double rgba(255, 0, 0, 0.303);
+         margin-top: 40px;
+        float:right;
+        margin-right: 30%;
+        width: 500px;
+        height: 400px;}
+
+.contact h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#sub {
+        background-color: dodgerblue;
+        width: 100%;
+        border: none;
+        color: white;
+        height: 2.5em;
+    }
+.contact label {
+        
+        width: 150px;
+        font-size:20px;
+    }
+.contact input[type=text],input[type=password]
+   {
+    width: 300px;
+    height: 50px;   
+   }
+#sub:hover{cursor:pointer;}
+.link
+{
+    margin-top: 500px;
+}
+.link p{border: 3px outset white;
+    float: left;
+    width: 18%;
+    margin-left:20px;
+    font-size: 20px;
+    background-color: white;
+    height: 1em;text-align: center;}
+    .link a{text-decoration: none;
+    color: blue;}
+
+#top{float: right;
+        margin-top:3%;
+        margin-right: 10%;
+
+    }
+#top h3{color: rgba(255, 0, 0, 0.847);
+    font-size: large;}
+#top a{text-decoration: none;
+   }
+
+footer {
+        background-color: white;
+        font-size:larger;
+        color:rgba(255, 0, 0, 0.847);
+        height: 1.5em;
+        margin-top:40%;
+        text-align: center;
+        margin-left: 50px;
+    }
+    
